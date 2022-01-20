@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.selectCardMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.selectCardMenu select {
+  border: 1px solid rgba(0, 0, 0, 0.42);
+  border-radius: 8px;
+  font-family: "roboto";
+  text-align: center;
+  font-size: 16px;
+  padding: 0.6rem;
+  background-color: #ffffff;
+  letter-spacing: 0.15px;
+  cursor: pointer;
+  color: rgb(99, 99, 99);
+}
+
+.selectCardMenu select:focus {
+  border: 3px solid rgb(98, 0, 238);
+}
+
+.selectCardMenu select:active {
+  border: 3px solid rgb(98, 0, 238);
+}
