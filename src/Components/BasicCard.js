@@ -43,3 +43,7 @@ const BasicCard = () => {
 };
 
 export default BasicCard;
+
+function test(event) {}
+
+test();
