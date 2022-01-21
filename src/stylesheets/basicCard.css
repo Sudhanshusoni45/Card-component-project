@@ -76,6 +76,8 @@ body {
   align-items: center;
   margin-top: 0.4rem;
   margin-bottom: 0.4rem;
+
+  /* border: chartreuse solid; */
 }
 
 .lower img {

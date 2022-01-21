@@ -9,7 +9,7 @@ const Home = (prop) => {
         <option value="">Basic w/Header</option>
         <option value="">Basic w/Only Buttons</option>
         <option value="OnlyIconCard">Basic w/only Icons</option>
-        <option value="">Horizontal Image and Text</option>
+        <option value="HorizontalImageText">Horizontal Image and Text</option>
       </select>
     </div>
   );

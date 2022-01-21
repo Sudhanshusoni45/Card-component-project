@@ -1,4 +1,4 @@
-import "../stylesheets/OnlyIconCard";
+import "../stylesheets/OnlyIconCard.css";
 
 const OnlyIconCard = () => {
   return (

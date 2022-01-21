@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: red 1px solid; */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: "Roboto";
+}
+
+.horizontal-image-text {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 350px;
+  height: 162px;
+  box-shadow: 3px 4px 6px rgba(207, 207, 207, 0.5);
+  border-radius: 5px;
+}
+
+.upper {
+  display: flex;
+}
+
+.upperContent {
+  margin-left: 0.9rem;
+}
+
+.upper:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.author {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.upper img {
+  width: 110px;
+  height: 110px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.upperContent {
+  padding-top: 1rem;
+}
+
+.lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+
+.lower img {
+  width: 20px;
+  height: 20px;
+  margin-right: 1.3rem;
+}
+
+.lowerLinks {
+  margin-left: 0.5rem;
+}
+
+.lowerLinks small {
+  font-size: 14px;
+  font-weight: 549;
+  color: rgb(98, 0, 238);
+  letter-spacing: 1.25px;
+}
+
+.lowerLinks button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0.5rem 0.6rem;
+  /* margin: 0; */
+}
+
+.lowerLinks button:hover {
+  cursor: pointer;
+  background-color: rgba(98, 0, 238, 0.025);
+  border-radius: 5px;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
